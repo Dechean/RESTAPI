@@ -13,6 +13,7 @@ public interface StudentRepo extends JpaRepository<Student, Integer> {
     Optional<Student> findByName(String name);
 
 
+
     // for custom name method
     Optional<Student> findByUsername(String username);
 
